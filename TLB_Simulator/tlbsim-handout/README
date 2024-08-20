@@ -1,0 +1,26 @@
+
+Before handing in, compile your code:
+    linux> make csim
+
+Check the correctness of your simulator:
+    linux> ./test-csim
+
+Check everything at once (this is the program that your instructor runs):
+    linux> ./driver.py    
+
+******
+Files:
+******
+
+# You will modifying and handing in this file
+csim.c       Your TLB simulator
+
+# Tools for evaluating your simulator and transpose function
+Makefile     Builds the simulator and tools
+README       This file
+driver.py*   The driver program, runs test-csim
+tlbsim.c   Required helper functions
+tlbsim.h   Required header file
+csim-ref*    The executable reference TLB simulator
+test-csim*   Tests your TLB simulator
+traces/      Trace files used by test-csim.c
